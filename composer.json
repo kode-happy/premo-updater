@@ -1,0 +1,29 @@
+{
+  "name": "kodehappy/premo-updater",
+  "description": "A package to easily implement automatic update checks with the Premo WordPress plugin into your own plugin",
+  "authors": [
+    {
+      "name": "KodeHappy",
+      "email": "hello@kodehappy.com",
+      "homepage": "https://kodehappy.com"
+    },
+    {
+      "name": "Happy Medium",
+      "email": "developers@itsahappymedium.com",
+      "homepage": "https://itsahappymedium.com"
+    },
+    {
+      "name": "Kodie Grantham",
+      "email": "kodie.grantham@gmail.com",
+      "homepage": "https://kodieg.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "premo-updater.php"
+    ]
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
