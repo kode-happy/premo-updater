@@ -89,7 +89,7 @@ if (!class_exists('PremoUpdater')) {
         ));
 
         if (is_wp_error($response) || wp_remote_retrieve_response_code($response) !== 200) {
-          add_action('after_plugin_row_' . self::$package . '/' . self::$package . '.php', array($this, 'error_message'), 10, 2);
+          // add_action('after_plugin_row_' . self::$package . '/' . self::$package . '.php', array($this, 'error_message'), 10, 2);
           return false;
         }
 
